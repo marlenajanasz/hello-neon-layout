@@ -1,0 +1,921 @@
+*, *::before, *::after {
+
+  box-sizing: border-box;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 900px;
+	margin-bottom: -95px;
+	
+}
+aside{
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+
+}
+.icon{
+	width: 34px;
+	height: 40px;
+	position: absolute;
+
+	padding-left: 2px;
+}
+.icon.first{
+	
+	top: 30%;
+	margin-top: 310px;
+}
+.icon.second{
+
+	top: 40%;
+	margin-top: 350px;
+}
+.icon.third{
+	
+	top: 50%;
+	margin-top: 390px;
+}
+.header{
+	width: 95%;
+	height: 95%;
+
+	margin-top: -20px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+
+	background-image: url("../assets/herobanner.jpg");
+	background-repeat: no-repeat;
+}
+.now{
+	width: 53%;
+
+	position: absolute;
+
+	top: 15%;
+	left: 22%;
+}
+
+h1{
+	width: 650px;
+	height: 50px;
+	position: absolute;
+    top: 42%;
+    margin-top: -25px;
+    left: 35%;
+    margin-left: -98px;
+
+    font-size: 5.8em;
+    font-weight: 600;
+    letter-spacing: 11px;
+    color: #7733FF;
+   
+}
+
+ul.nav{
+	width: 550px;
+	height: 50px;
+	
+	list-style-type: none;
+	
+	display: inline-flex;
+
+	position: absolute;
+    top: 63%;
+    margin-top: -20px;
+    left: 39%;
+    margin-left: -135px;
+
+    color: #FFFFFF;
+
+    font-size: 1.4em;
+    font-weight: 500;
+}
+li{
+	width: 22%;
+}
+li.margin-needed{
+	margin-left: 15px;
+	margin-right: 23px;
+}
+.introduction{
+	width: 100%;
+	height: 900px;
+
+	margin-top: 40px;
+
+	background-color: #E5E7E9;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+h2{
+	font-size: 2.6em;
+    color: #7744dd;
+    font-weight: 700;
+}
+h2.hello{
+	width: 400px;
+	height: 50px;
+	position: absolute;
+	top: 11%;
+    margin-top: -25px;
+    left: 21%;
+}
+p{
+	line-height: 25px;
+    font-size: 0.8em;
+}
+p.hellou{
+	width: 350px;
+}
+p.hellou.description{
+	position: absolute;
+	top: 22%;
+    margin-top: -25px;
+    left: 21%;
+}
+p.hellou.description2{
+	position: absolute;
+	top: 59%;
+    margin-top: -25px;
+    left: 21%;
+}
+.image{
+	margin-top: 180px;
+	left: 43%;
+}
+.gallery{
+	width: 100%;
+	height: 180px;
+
+
+	background-color: #FFFFFF;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+h2.gal{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 45%;
+	left: 21%; /*czemu h2.intro nie potrzebuje left??*/
+    margin-top: -25px;
+}
+.gallery-description{
+	width: 935px;
+	position: absolute;
+	top: 45%;
+	left: 32%;
+    margin-top: -25px;
+    margin-left: 30px;
+
+    line-height: 25px;
+     font-size: 0.8em;
+}
+.opening-hours{
+	width: 100%;
+	height: 375px;
+
+	margin-top: -15px;
+
+	position: relative;
+
+	background-image: url("../assets/panel.jpg");
+	background-repeat: repeat;
+}
+.opening-description{
+	font-size: 2.4em;
+	font-weight: lighter;
+	color: #FFFFFF;
+	line-height: 50px;
+
+	position: absolute;
+	top: 46%;
+	left: 21%;
+}
+.services-contact{
+	width: 100%;
+	height: 1100px;
+
+	margin-top: 40px;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	background: #D1C4E9;
+	background: linear-gradient(#D1C4E9, #B39DDB, #6633CC);
+}
+p.services{
+	color: #FFFFFF;
+
+	float: right;
+}
+p.services.desc{
+	width: 509px;
+
+	position: absolute;
+	margin-top: 35px;
+	top: 15%;
+	left: 45%;
+}
+p.services.desc2{
+	width: 270px;
+
+	position: absolute;
+	margin-top: 35px;
+	top: 25%;
+	left: 62%;
+}
+h2.services-header{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 10%;
+	left: 21%; /*czemu h2.intro nie potrzebuje left??*/
+    margin-top: -25px;
+}
+ul.services-list{
+	width: 300px;
+	height: 50px;
+	
+	list-style-type: none;
+
+	color: #000;
+
+	text-transform: uppercase;
+
+	position: absolute;
+	
+	top: 15%;
+	left: 18%; /*czemu jak jest 19% jak w h2.service to nie jest równo jak on*/
+    margin-left: 10px;
+
+	line-height: 65px;
+
+	font-size: 1.3em;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+}
+.services-img{
+	position: absolute;
+	top: 29%;
+	left: 45%;
+}
+h2.contact-header{
+	position: absolute;
+	top: 50%;
+	left: 21%;
+}
+form.contact-form{
+	position: absolute;
+	top: 63%;
+	left: 21%;
+	color: #FFFFFF;
+}
+.form-label{
+	height: 62px;
+}
+.small-label{
+	height: 30px;
+	width: 320px;
+	padding-left: 6px;
+
+	border-bottom: #FFFFFF 1px solid;
+}
+h3{
+	font-size: 2em;
+	font-weight: 500;
+
+	position: absolute;
+	top: 60%;
+	left: 45%;
+	color: #FFFFFF;
+}
+p.contact-desc{
+	width: 515px;
+
+	position: absolute;
+	margin-top: 35px;
+	top: 65%;
+	left: 45%;
+
+	color: #FFFFFF;
+}
+button{
+	border-radius: 40px;
+	border-style: none;
+
+	width: 320px;
+	height: 50px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	background-color: #FFFFFF;
+
+	color: #9933FF;
+	font-weight: bold;
+}
+
+@media all and (min-width: 1450px) and (max-width: 1500px){
+	h1{
+		font-size: 5.4em;
+	}
+	p.services.desc2{
+		width: 220px;
+		left: 64%;
+	}
+}
+@media all and (min-width: 1390px) and (max-width: 1449px){
+	h1{
+		font-size: 5.1em;
+		top: 38%;
+	}
+	.icon{
+		width: 28px;
+	}
+	ul.nav{
+		left: 37%;
+	}
+}
+
+@media all and (min-width: 1201px) and (max-width: 1389px){
+	header{
+		margin-bottom: -125px;
+	}
+	h1{
+		font-size: 5.1em;
+		top: 38%;
+	}
+	.icon{
+		width: 28px;
+	}
+	ul.nav{
+		left: 37%;
+		top: 56%;
+    	margin-top: -20px;
+	}
+
+	.image{
+		margin-top: 180px;
+		left: 46%;
+		width: 320px;
+	}
+	p.services.desc2{
+		width: 220px;
+		left: 67%;
+	}
+	h3{
+		left: 52%;
+	}
+	p.contact-desc{
+		width: 450px;
+		top: 65%;
+		left: 52%;
+	}
+}
+@media all and (min-width: 1024px) and (max-width: 1200px){
+	
+	header{
+		height: 700px;
+		margin-bottom: -45px;
+	}
+	h1{
+		font-size: 4.8em;
+		top: 40%;
+		left: 33%;
+	}
+	.icon{
+		width: 28px;
+	}
+	ul.nav{
+		left: 35%;
+	}
+	aside{
+    	display: none;
+    }
+    h2{
+    	font-size: 2.4em;
+    }
+     p{
+    	font-size: 0.7em;
+	}
+	p.hellou{
+		width: 300px;
+	}
+	.image{
+		margin-top: 180px;
+		left: 46%;
+		width: 320px;
+	}
+	.gallery-description{
+		font-size: 0.7em;
+	}
+	ul.services-list{
+		top: 13%;
+		font-size: 1.2em;
+	}
+	p.services.desc{
+		margin-top: 40px;
+		top: 13%;
+	}
+	p.services.desc2{
+		left: 70%;
+	}
+	h3{
+		top: 59%;
+		left: 55%;
+	}
+	p.contact-desc{
+		width: 350px;
+		top: 65%;
+		left: 55%;
+		}
+}
+@media all and (min-width: 768px) and (max-width: 1023px){
+	h1{
+		font-size: 4em;
+		top: 38%;
+	}
+	ul.nav{
+		position: absolute;
+    	top: 55%;
+    	margin-top: 0px;
+    	left: 35%;
+    	margin-left: -140px;
+
+    	font-size: 1.1em;
+	}	
+	header{
+		height: 700px;
+		margin-bottom: -45px;
+	}
+	aside{
+    	display: none;
+    }
+    h2{
+		font-size: 2.5em;
+	}	
+	h2.hello{
+		top: 9%;
+	}
+    p{
+    	font-size: 0.7em;
+	}
+	p.hellou{
+		width: 250px;
+	}
+	p.hellou.description{
+		position: absolute;
+		top: 20%;
+    	margin-top: -25px;
+    	left: 21%;
+	}
+	p.hellou.description2{
+		position: absolute;
+		top: 62%;
+    	margin-top: -25px;
+    	left: 21%;
+	}
+	.image{
+		width: 320px;
+		margin-top: 165px;
+		left: 47%;
+	}
+	h2.gal{
+		top: 41%;
+		left: 21%; /*czemu h2.intro nie potrzebuje left??*/
+    	margin-top: -65px;
+	}
+	.gallery-description{
+		width: 935px;
+		position: absolute;
+		top: 57%;
+		left: 21%;
+    	margin-top: -25px;
+    	margin-left: 5px;
+
+    	line-height: 25px;
+     	font-size: 0.7em;
+	}
+	p.services.desc{
+		top: 8%;
+		left: 43%;
+	}
+	p.services.desc2{
+		margin-top: 45px;
+		top: 18%;
+		left: 69%;
+	}
+	h2.services-header{
+		top: 5%;
+		left: 21%; /*czemu h2.intro nie potrzebuje left??*/
+    	margin-top: -25px;
+	}
+	ul.services-list{
+		width: 300px;
+		height: 50px;
+	
+		top: 8%;
+    	margin-left: 5px;
+		font-size: 1.1em;
+	}
+	.services-img{
+		position: absolute;
+		top: 23%;
+		left: 43%;
+	}
+	h2.contact-header{
+		position: absolute;
+		top: 45%;
+		left: 21%;
+	}
+	form.contact-form{
+		position: absolute;
+		top: 58%;
+		left: 21%;
+		color: #FFFFFF;
+	}
+	.form-label{
+		height: 62px;
+	}
+	.small-label{
+		height: 30px;
+		width: 300px;
+		padding-left: 6px;
+
+		border-bottom: #FFFFFF 1px solid;
+	}
+	h3{
+		font-size: 1.8em;
+
+		position: absolute;
+		top: 55%;
+		left: 55%;
+	}
+	p.contact-desc{
+		width: 315px;
+
+		margin-top: 35px;
+		top: 60%;
+		left: 55%;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 767px){
+	.header{
+		height: 45%;
+	}
+	h1{
+		font-size: 2.5em;
+		top: 45%;
+		left: 39%;
+	}
+	ul.nav{
+		width: 350px;
+		height: 50px;
+	
+    	top: 70%;
+    	left: 40%;
+
+    	font-size: 0.7em;
+    	font-weight: 500;
+    }
+    aside{
+    	display: none;
+    }
+    .introduction{
+		width: 100%;
+		height: 900px;
+
+		margin-top: -550px;
+
+		position: relative;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	h2{
+		font-size: 1.6em;
+	}
+	h2.hello{
+		top: 6%;
+		left: 13%;
+	}
+	p{
+		line-height: 15px;
+    	font-size: 0.7em;
+	}
+	p.hellou{
+		width: 550px;
+	}
+	p.hellou.description{
+		position: absolute;
+		top: 15%;
+    	margin-top: -25px;
+    	left: 13%;
+	}
+	p.hellou.description2{
+		position: absolute;
+		top: 32%;
+    	margin-top: -25px;
+    	left: 13%;
+	}
+	
+	.image{
+		width: 220px;
+		margin-top: 15px;
+		margin-left: 100px;
+		height: 600px;
+	}
+	.gallery{
+		height: 220px;
+	}
+	h2.gal{
+		top: 25%;
+		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+	}
+	.gallery-description{
+		width: 535px;
+		position: absolute;
+		top: 50%;
+		left: 13%;
+		margin-left: 0px;
+    	line-height: 15px;
+     	font-size: 0.7em;
+	}
+	.opening-hours{
+		height: 275px;
+	}
+	.opening-description{
+		font-size: 1.4em;
+		line-height: 30px;
+
+		position: absolute;
+		top: 46%;
+		left: 13%;
+	}
+	h2.services-header{
+		top: 5%;
+		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+    	margin-top: 0px;
+	}
+	ul.services-list{
+		width: 100px;
+		height: 50px;
+
+		top: 8%;
+		left: 5%; /*czemu jak jest 19% jak w h2.service to nie jest równo jak on*/
+    	margin-left: 25px;
+
+		line-height: 45px;
+
+		font-size: 0.8em;
+	}
+	.services-contact{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	p.services{
+		color: #FFFFFF;
+	}
+	p.services.desc{
+		width: 400px;  /*czemu nie da się zrobić width na poziomie p.services - bo najwyżej w kodzie width jest osobno ustalona*/
+		position: absolute;
+		margin-top: 30px;
+		top: 8%;
+		left: 35%;
+	}
+	p.services.desc2{
+		width: 400px;       
+		position: absolute;
+		margin-top: -5px;
+		top: 20%;
+		left: 35%;
+	}
+	.services-img{
+		display: none;
+	}
+	h2.contact-header{
+		position: absolute;
+		top: 30%;
+		left: 13%;
+	}
+	form.contact-form{
+		position: absolute;
+		top: 38%;
+		left: 13%;
+	}
+	.form-label{
+		height: 62px;
+	}
+	.small-label{
+		height: 30px;
+		width: 320px;
+		padding-left: 6px;
+
+		border-bottom: #FFFFFF 1px solid;
+	}
+	h3{
+		font-size: 1.6em;
+
+		position: absolute;
+		top: 72%;
+		left: 13%;
+	}
+	p.contact-desc{
+		width: 550px;
+
+		position: absolute;
+		top: 77%;
+		left: 13%;
+	}
+}
+@media all and (min-width: 10px) and (max-width: 480px){
+	header{
+		margin-bottom: 0px;
+	}
+	.header{
+		height: 35%;
+	}
+	h1{
+		font-size: 1.1em;
+		top: 45%;
+		left: 47%;
+		color: #000088;
+	}
+	ul.nav{
+		width: 250px;
+		height: 50px;
+	
+    	top: 60%;
+    	left: 46%;
+
+    	font-size: 0.6em;
+    	font-weight: 500;
+    }
+    aside{
+    	display: none;
+    }
+    .introduction{
+		width: 100%;
+		height: 900px;
+
+		margin-top: -550px;
+
+		position: relative;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	h2{
+		font-size: 1.6em;
+	}
+	h2.hello{
+		top: 6%;
+		left: 13%;
+	}
+	p{
+		line-height: 15px;
+    	font-size: 0.6em;
+	}
+	p.hellou.description{
+		position: absolute;
+		top: 15%;
+    	margin-top: -25px;
+    	left: 13%;
+	}
+	p.hellou.description2{
+		position: absolute;
+		top: 34%;
+    	margin-top: -25px;
+    	left: 13%;
+	}
+	.gallery{
+		height: 220px;
+	}
+	h2.gal{
+		top: 25%;
+		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+	}
+	.gallery-description{
+		width: 335px;
+		position: absolute;
+		top: 50%;
+		left: 13%;
+		margin-left: 0px;
+    	line-height: 15px;
+    	font-size: 0.6em;
+	}
+	.opening-hours{
+		height: 275px;
+	}
+	.opening-description{
+		font-size: 1.4em;
+		line-height: 30px;
+
+		position: absolute;
+		top: 46%;
+		left: 13%;
+	}
+	h2.services-header{
+		top: 5%;
+		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+    	margin-top: 0px;
+	}
+	ul.services-list{
+		width: 100px;
+		height: 50px;
+
+		top: 8%;
+		left: 5%; /*czemu jak jest 19% jak w h2.service to nie jest równo jak on*/
+    	margin-left: 0px;
+
+		line-height: 45px;
+
+		font-size: 0.8em;
+	}
+	.services-contact{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	p.services{
+		color: #FFFFFF;
+			
+		clear: both;
+	}
+	p.services.desc{
+		width: 209px;
+
+		position: absolute;
+		margin-top: 30px;
+		top: 8%;
+		left: 45%;
+	}
+	p.services.desc2{
+		width: 209px;
+
+		position: absolute;
+		margin-top: 30px;
+		top: 20%;
+		left: 45%;
+	}
+	.services-img{
+		display: none;
+	}
+	h2.contact-header{
+		position: absolute;
+		top: 35%;
+		left: 13%;
+	}
+	form.contact-form{
+		position: absolute;
+		top: 43%;
+		left: 13%;
+	}
+	.form-label{
+		height: 62px;
+	}
+	.small-label{
+		height: 30px;
+		width: 320px;
+		padding-left: 6px;
+
+		border-bottom: #FFFFFF 1px solid;
+	}
+	h3{
+		font-size: 1.6em;
+
+		position: absolute;
+		top: 75%;
+		left: 13%;
+	}
+	p.contact-desc{
+		width: 350px;
+
+		position: absolute;
+		top: 80%;
+		left: 13%;
+	}
+}
+
