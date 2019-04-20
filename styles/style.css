@@ -55,6 +55,7 @@ aside{
 
 	background-image: url("../assets/herobanner.jpg");
 	background-repeat: no-repeat;
+	background-size: 100% auto;
 }
 .now{
 	width: 53%;
@@ -102,6 +103,9 @@ ul.nav{
 }
 li{
 	width: 22%;
+}
+li:hover{
+	color: #000088;
 }
 li.margin-needed{
 	margin-left: 15px;
@@ -335,7 +339,14 @@ button{
 	color: #9933FF;
 	font-weight: bold;
 }
-
+button:hover{
+	transform: scale(1.1);
+	-webkit-transition: 1s ease-out;
+}
+@media all and (min-width: 1700px) {
+	.now{
+		top: 7%;
+	}
 @media all and (min-width: 1450px) and (max-width: 1500px){
 	h1{
 		font-size: 5.4em;
