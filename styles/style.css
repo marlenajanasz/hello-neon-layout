@@ -1,5 +1,4 @@
 *, *::before, *::after {
-
   box-sizing: border-box;
 }
 body{
@@ -11,36 +10,29 @@ body{
 header{
 	width: 100%;
 	height: 900px;
-	margin-bottom: -95px;
-	
+	margin-bottom: -95px;	
 }
 aside{
 	color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
-
 	position: relative;
-
 }
 .icon{
 	width: 34px;
 	height: 40px;
 	position: absolute;
-
 	padding-left: 2px;
 }
 .icon.first{
-	
 	top: 30%;
 	margin-top: 310px;
 }
 .icon.second{
-
 	top: 40%;
 	margin-top: 350px;
 }
 .icon.third{
-	
 	top: 50%;
 	margin-top: 390px;
 }
@@ -70,15 +62,15 @@ h1{
 	width: 650px;
 	height: 50px;
 	position: absolute;
-    top: 42%;
-    margin-top: -25px;
-    left: 35%;
-    margin-left: -98px;
+    	top: 42%;
+    	margin-top: -25px;
+    	left: 35%;
+    	margin-left: -98px;
 
-    font-size: 5.8em;
-    font-weight: 600;
-    letter-spacing: 11px;
-    color: #7733FF;
+    	font-size: 5.8em;
+    	font-weight: 600;
+    	letter-spacing: 11px;
+    	color: #7733FF;
    
 }
 
@@ -91,15 +83,15 @@ ul.nav{
 	display: inline-flex;
 
 	position: absolute;
-    top: 63%;
-    margin-top: -20px;
-    left: 39%;
-    margin-left: -135px;
+    	top: 63%;
+    	margin-top: -20px;
+    	left: 39%;
+    	margin-left: -135px;
 
-    color: #FFFFFF;
+    	color: #FFFFFF;
 
-    font-size: 1.4em;
-    font-weight: 500;
+    	font-size: 1.4em;
+    	font-weight: 500;
 }
 li{
 	width: 22%;
@@ -127,20 +119,20 @@ li.margin-needed{
 }
 h2{
 	font-size: 2.6em;
-    color: #7744dd;
-    font-weight: 700;
+    	color: #7744dd;
+    	font-weight: 700;
 }
 h2.hello{
 	width: 400px;
 	height: 50px;
 	position: absolute;
 	top: 11%;
-    margin-top: -25px;
-    left: 21%;
+    	margin-top: -25px;
+    	left: 21%;
 }
 p{
 	line-height: 25px;
-    font-size: 0.8em;
+    	font-size: 0.8em;
 }
 p.hellou{
 	width: 350px;
@@ -148,14 +140,14 @@ p.hellou{
 p.hellou.description{
 	position: absolute;
 	top: 22%;
-    margin-top: -25px;
-    left: 21%;
+    	margin-top: -25px;
+    	left: 21%;
 }
 p.hellou.description2{
 	position: absolute;
 	top: 59%;
-    margin-top: -25px;
-    left: 21%;
+    	margin-top: -25px;
+    	left: 21%;
 }
 .image{
 	margin-top: 180px;
@@ -180,18 +172,18 @@ h2.gal{
 	position: absolute;
 	top: 45%;
 	left: 21%; /*czemu h2.intro nie potrzebuje left??*/
-    margin-top: -25px;
+    	margin-top: -25px;
 }
 .gallery-description{
 	width: 935px;
 	position: absolute;
 	top: 45%;
 	left: 32%;
-    margin-top: -25px;
-    margin-left: 30px;
+    	margin-top: -25px;
+    	margin-left: 30px;
 
-    line-height: 25px;
-     font-size: 0.8em;
+    	line-height: 25px;
+     	font-size: 0.8em;
 }
 .opening-hours{
 	width: 100%;
@@ -255,8 +247,8 @@ h2.services-header{
 	height: 50px;
 	position: absolute;
 	top: 10%;
-	left: 21%; /*czemu h2.intro nie potrzebuje left??*/
-    margin-top: -25px;
+	left: 21%; 
+    	margin-top: -25px;
 }
 ul.services-list{
 	width: 300px;
@@ -271,7 +263,7 @@ ul.services-list{
 	position: absolute;
 	
 	top: 15%;
-	left: 18%; /*czemu jak jest 19% jak w h2.service to nie jest równo jak on*/
+	left: 18%; 
     margin-left: 10px;
 
 	line-height: 65px;
@@ -343,6 +335,7 @@ button:hover{
 	transform: scale(1.1);
 	-webkit-transition: 1s ease-out;
 }
+/*desktops*/
 @media all and (min-width: 1700px) {
 	.now{
 		top: 7%;
@@ -423,12 +416,12 @@ button:hover{
 	}
 	aside{
     	display: none;
-    }
-    h2{
-    	font-size: 2.4em;
-    }
-     p{
-    	font-size: 0.7em;
+    	}
+    	h2{
+    		font-size: 2.4em;
+    	}
+        p{
+    		font-size: 0.7em;
 	}
 	p.hellou{
 		width: 300px;
@@ -462,6 +455,7 @@ button:hover{
 		left: 55%;
 		}
 }
+/*tablets*/	
 @media all and (min-width: 768px) and (max-width: 1023px){
 	h1{
 		font-size: 4em;
@@ -469,28 +463,28 @@ button:hover{
 	}
 	ul.nav{
 		position: absolute;
-    	top: 55%;
-    	margin-top: 0px;
-    	left: 35%;
-    	margin-left: -140px;
+    		top: 55%;
+    		margin-top: 0px;
+    		left: 35%;
+    		margin-left: -140px;
 
-    	font-size: 1.1em;
+    		font-size: 1.1em;
 	}	
 	header{
 		height: 700px;
 		margin-bottom: -45px;
 	}
 	aside{
-    	display: none;
-    }
-    h2{
+    		display: none;
+    	}
+   	h2{
 		font-size: 2.5em;
 	}	
 	h2.hello{
 		top: 9%;
 	}
-    p{
-    	font-size: 0.7em;
+    	p{
+    		font-size: 0.7em;
 	}
 	p.hellou{
 		width: 250px;
@@ -498,14 +492,14 @@ button:hover{
 	p.hellou.description{
 		position: absolute;
 		top: 20%;
-    	margin-top: -25px;
-    	left: 21%;
+    		margin-top: -25px;
+    		left: 21%;
 	}
 	p.hellou.description2{
 		position: absolute;
 		top: 62%;
-    	margin-top: -25px;
-    	left: 21%;
+    		margin-top: -25px;
+    		left: 21%;
 	}
 	.image{
 		width: 320px;
@@ -514,19 +508,19 @@ button:hover{
 	}
 	h2.gal{
 		top: 41%;
-		left: 21%; /*czemu h2.intro nie potrzebuje left??*/
-    	margin-top: -65px;
+		left: 21%; 
+    		margin-top: -65px;
 	}
 	.gallery-description{
 		width: 935px;
 		position: absolute;
 		top: 57%;
 		left: 21%;
-    	margin-top: -25px;
-    	margin-left: 5px;
+    		margin-top: -25px;
+    		margin-left: 5px;
 
-    	line-height: 25px;
-     	font-size: 0.7em;
+    		line-height: 25px;
+     		font-size: 0.7em;
 	}
 	p.services.desc{
 		top: 8%;
@@ -539,15 +533,15 @@ button:hover{
 	}
 	h2.services-header{
 		top: 5%;
-		left: 21%; /*czemu h2.intro nie potrzebuje left??*/
-    	margin-top: -25px;
+		left: 21%; 
+    		margin-top: -25px;
 	}
 	ul.services-list{
 		width: 300px;
 		height: 50px;
 	
 		top: 8%;
-    	margin-left: 5px;
+    		margin-left: 5px;
 		font-size: 1.1em;
 	}
 	.services-img{
@@ -604,16 +598,16 @@ button:hover{
 		width: 350px;
 		height: 50px;
 	
-    	top: 70%;
-    	left: 40%;
+    		top: 70%;
+    		left: 40%;
 
-    	font-size: 0.7em;
-    	font-weight: 500;
+    		font-size: 0.7em;
+    		font-weight: 500;
     }
-    aside{
-    	display: none;
+    	aside{
+    		display: none;
     }
-    .introduction{
+    	.introduction{
 		width: 100%;
 		height: 900px;
 
@@ -642,14 +636,14 @@ button:hover{
 	p.hellou.description{
 		position: absolute;
 		top: 15%;
-    	margin-top: -25px;
-    	left: 13%;
+    		margin-top: -25px;
+    		left: 13%;
 	}
 	p.hellou.description2{
 		position: absolute;
 		top: 32%;
-    	margin-top: -25px;
-    	left: 13%;
+    		margin-top: -25px;
+    		left: 13%;
 	}
 	
 	.image{
@@ -663,7 +657,7 @@ button:hover{
 	}
 	h2.gal{
 		top: 25%;
-		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+		left: 13%; 
 	}
 	.gallery-description{
 		width: 535px;
@@ -671,8 +665,8 @@ button:hover{
 		top: 50%;
 		left: 13%;
 		margin-left: 0px;
-    	line-height: 15px;
-     	font-size: 0.7em;
+    		line-height: 15px;
+     		font-size: 0.7em;
 	}
 	.opening-hours{
 		height: 275px;
@@ -687,7 +681,7 @@ button:hover{
 	}
 	h2.services-header{
 		top: 5%;
-		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+		left: 13%; 
     	margin-top: 0px;
 	}
 	ul.services-list{
@@ -695,8 +689,8 @@ button:hover{
 		height: 50px;
 
 		top: 8%;
-		left: 5%; /*czemu jak jest 19% jak w h2.service to nie jest równo jak on*/
-    	margin-left: 25px;
+		left: 5%; 
+    		margin-left: 25px;
 
 		line-height: 45px;
 
@@ -711,7 +705,7 @@ button:hover{
 		color: #FFFFFF;
 	}
 	p.services.desc{
-		width: 400px;  /*czemu nie da się zrobić width na poziomie p.services - bo najwyżej w kodzie width jest osobno ustalona*/
+		width: 400px;  
 		position: absolute;
 		margin-top: 30px;
 		top: 8%;
@@ -762,6 +756,7 @@ button:hover{
 		left: 13%;
 	}
 }
+	/*mobile*/
 @media all and (min-width: 10px) and (max-width: 480px){
 	header{
 		margin-bottom: 0px;
@@ -779,11 +774,11 @@ button:hover{
 		width: 250px;
 		height: 50px;
 	
-    	top: 60%;
-    	left: 46%;
+    		top: 60%;
+    		left: 46%;
 
-    	font-size: 0.6em;
-    	font-weight: 500;
+    		font-size: 0.6em;
+    		font-weight: 500;
     }
     aside{
     	display: none;
@@ -809,26 +804,26 @@ button:hover{
 	}
 	p{
 		line-height: 15px;
-    	font-size: 0.6em;
+    		font-size: 0.6em;
 	}
 	p.hellou.description{
 		position: absolute;
 		top: 15%;
-    	margin-top: -25px;
-    	left: 13%;
+    		margin-top: -25px;
+    		left: 13%;
 	}
 	p.hellou.description2{
 		position: absolute;
 		top: 34%;
-    	margin-top: -25px;
-    	left: 13%;
+    		margin-top: -25px;
+    		left: 13%;
 	}
 	.gallery{
 		height: 220px;
 	}
 	h2.gal{
 		top: 25%;
-		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+		left: 13%; 
 	}
 	.gallery-description{
 		width: 335px;
@@ -836,8 +831,8 @@ button:hover{
 		top: 50%;
 		left: 13%;
 		margin-left: 0px;
-    	line-height: 15px;
-    	font-size: 0.6em;
+    		line-height: 15px;
+    		font-size: 0.6em;
 	}
 	.opening-hours{
 		height: 275px;
@@ -852,7 +847,7 @@ button:hover{
 	}
 	h2.services-header{
 		top: 5%;
-		left: 13%; /*czemu h2.intro nie potrzebuje left??*/
+		left: 13%; 
     	margin-top: 0px;
 	}
 	ul.services-list{
@@ -860,8 +855,8 @@ button:hover{
 		height: 50px;
 
 		top: 8%;
-		left: 5%; /*czemu jak jest 19% jak w h2.service to nie jest równo jak on*/
-    	margin-left: 0px;
+		left: 5%;
+    		margin-left: 0px;
 
 		line-height: 45px;
 
