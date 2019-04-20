@@ -330,6 +330,7 @@ button{
 
 	color: #9933FF;
 	font-weight: bold;
+	-webkit-transition: 1s;
 }
 button:hover{
 	transform: scale(1.1);
