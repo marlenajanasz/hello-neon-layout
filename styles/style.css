@@ -340,6 +340,7 @@ button:hover{
 	.now{
 		top: 7%;
 	}
+}
 @media all and (min-width: 1501px){
 	.header{
 		background-size: 100% auto;
