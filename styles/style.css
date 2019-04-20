@@ -47,7 +47,6 @@ aside{
 
 	background-image: url("../assets/herobanner.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% auto;
 }
 .now{
 	width: 53%;
@@ -171,7 +170,7 @@ h2.gal{
 	height: 50px;
 	position: absolute;
 	top: 45%;
-	left: 21%; /*czemu h2.intro nie potrzebuje left??*/
+	left: 21%; 
     	margin-top: -25px;
 }
 .gallery-description{
@@ -341,6 +340,11 @@ button:hover{
 	.now{
 		top: 7%;
 	}
+@media all and (min-width: 1501px){
+	.header{
+		background-size: 100% auto;
+	}
+}
 @media all and (min-width: 1450px) and (max-width: 1500px){
 	h1{
 		font-size: 5.4em;
