@@ -1,6 +1,7 @@
 <h2>General info</h2>
 
 "Hello Neon" is my first project, created with HTML5 and CSS3. <br>
+Here I learned how to use media queries. <br>
 Under the below links you can find short presentations about it (they were recorded before I added some simple animations) <br>
 
 Desktop version:<br>
