@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=v45Uvfh6N2Y<br><br>
 <h2>Technologies</h2>
 <ul>
   <li>HTML5</li>
-  <li>CSS3</li>
+  <li>CSS3</li><br>
   
 *Work on this project in still in progress
 
