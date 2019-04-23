@@ -1,4 +1,5 @@
 *, *::before, *::after {
+
   box-sizing: border-box;
 }
 body{
@@ -10,29 +11,36 @@ body{
 header{
 	width: 100%;
 	height: 900px;
-	margin-bottom: -95px;	
+	margin-bottom: -95px;
+	
 }
 aside{
 	color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
+
 	position: relative;
+
 }
 .icon{
 	width: 34px;
 	height: 40px;
 	position: absolute;
+
 	padding-left: 2px;
 }
 .icon.first{
+	
 	top: 30%;
 	margin-top: 310px;
 }
 .icon.second{
+
 	top: 40%;
 	margin-top: 350px;
 }
 .icon.third{
+	
 	top: 50%;
 	margin-top: 390px;
 }
@@ -61,17 +69,17 @@ h1{
 	width: 650px;
 	height: 50px;
 	position: absolute;
-    	top: 42%;
-    	margin-top: -25px;
-    	left: 35%;
-    	margin-left: -98px;
+    top: 42%;
+    margin-top: -25px;
+    left: 35%;
+    margin-left: -98px;
 
-    	font-size: 5.8em;
-    	font-weight: 600;
-    	letter-spacing: 11px;
-    	color: #7733FF;
-   
+    font-size: 5.8em;
+    font-weight: 600;
+    letter-spacing: 11px;
+    color: #7733FF;
 }
+
 
 ul.nav{
 	width: 550px;
@@ -82,15 +90,15 @@ ul.nav{
 	display: inline-flex;
 
 	position: absolute;
-    	top: 63%;
-    	margin-top: -20px;
-    	left: 39%;
-    	margin-left: -135px;
+    top: 63%;
+    margin-top: -20px;
+    left: 39%;
+    margin-left: -135px;
 
-    	color: #FFFFFF;
+    color: #FFFFFF;
 
-    	font-size: 1.4em;
-    	font-weight: 500;
+    font-size: 1.4em;
+    font-weight: 500;
 }
 li{
 	width: 22%;
@@ -118,20 +126,20 @@ li.margin-needed{
 }
 h2{
 	font-size: 2.6em;
-    	color: #7744dd;
-    	font-weight: 700;
+    color: #7744dd;
+    font-weight: 700;
 }
 h2.hello{
 	width: 400px;
 	height: 50px;
 	position: absolute;
 	top: 11%;
-    	margin-top: -25px;
-    	left: 21%;
+    margin-top: -25px;
+    left: 21%;
 }
 p{
 	line-height: 25px;
-    	font-size: 0.8em;
+    font-size: 0.8em;
 }
 p.hellou{
 	width: 350px;
@@ -139,14 +147,14 @@ p.hellou{
 p.hellou.description{
 	position: absolute;
 	top: 22%;
-    	margin-top: -25px;
-    	left: 21%;
+    margin-top: -25px;
+    left: 21%;
 }
 p.hellou.description2{
 	position: absolute;
 	top: 59%;
-    	margin-top: -25px;
-    	left: 21%;
+    margin-top: -25px;
+    left: 21%;
 }
 .image{
 	margin-top: 180px;
@@ -155,12 +163,8 @@ p.hellou.description2{
 .gallery{
 	width: 100%;
 	height: 180px;
-
-
 	background-color: #FFFFFF;
-
 	position: relative;
-
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -170,19 +174,19 @@ h2.gal{
 	height: 50px;
 	position: absolute;
 	top: 45%;
-	left: 21%; 
-    	margin-top: -25px;
+	left: 21%; /*czemu h2.intro nie potrzebuje left??*/
+    margin-top: -25px;
 }
 .gallery-description{
 	width: 935px;
 	position: absolute;
 	top: 45%;
 	left: 32%;
-    	margin-top: -25px;
-    	margin-left: 30px;
+    margin-top: -25px;
+    margin-left: 30px;
 
-    	line-height: 25px;
-     	font-size: 0.8em;
+    line-height: 25px;
+     font-size: 0.8em;
 }
 .opening-hours{
 	width: 100%;
@@ -247,7 +251,7 @@ h2.services-header{
 	position: absolute;
 	top: 10%;
 	left: 21%; 
-    	margin-top: -25px;
+    margin-top: -25px;
 }
 ul.services-list{
 	width: 300px;
@@ -329,23 +333,25 @@ button{
 
 	color: #9933FF;
 	font-weight: bold;
+
 	-webkit-transition: 1s;
 }
 button:hover{
 	transform: scale(1.1);
 	-webkit-transition: 1s ease-out;
 }
-/*desktops*/
 @media all and (min-width: 1700px) {
 	.now{
 		top: 7%;
 	}
 }
-@media all and (min-width: 1501px){
+
+@media all and (min-width: 1501px) {
 	.header{
 		background-size: 100% auto;
 	}
 }
+
 @media all and (min-width: 1450px) and (max-width: 1500px){
 	h1{
 		font-size: 5.4em;
@@ -373,16 +379,16 @@ button:hover{
 		margin-bottom: -125px;
 	}
 	h1{
-		font-size: 5.1em;
-		top: 38%;
+		top: 35%;
+		left: 33%;
 	}
 	.icon{
 		width: 28px;
 	}
 	ul.nav{
-		left: 37%;
 		top: 56%;
     	margin-top: -20px;
+    	left: 35%;
 	}
 
 	.image{
@@ -403,7 +409,7 @@ button:hover{
 		left: 52%;
 	}
 }
-@media all and (min-width: 1024px) and (max-width: 1200px){
+@media all and (max-width: 1200px){
 	
 	header{
 		height: 700px;
@@ -411,45 +417,78 @@ button:hover{
 	}
 	h1{
 		font-size: 4.8em;
-		top: 40%;
-		left: 33%;
+		top: 37%;
+		left: 31%;
 	}
 	.icon{
 		width: 28px;
 	}
 	ul.nav{
-		left: 35%;
+		left: 34%;
 	}
 	aside{
     	display: none;
-    	}
-    	h2{
-    		font-size: 2.4em;
-    	}
-        p{
-    		font-size: 0.7em;
+    }
+    h2.hello{
+    	font-size: 2.4em;
+    	left: 10%;
+    }
+    p{
+    	font-size: 0.7em;
 	}
 	p.hellou{
 		width: 300px;
 	}
+	p.hellou.description{
+		left: 10%;
+	}
+	p.hellou.description2{
+		left: 10%;
+	}
 	.image{
 		margin-top: 180px;
-		left: 46%;
+		left: 40%;
 		width: 320px;
+	}
+	h2.gal{
+		left: 10%;
 	}
 	.gallery-description{
 		font-size: 0.7em;
+		left: 25%;
+	}
+	.opening-description{
+		left: 10%;
+	}
+	h2.services-header{
+		left: 10%;
 	}
 	ul.services-list{
 		top: 13%;
+		left: 8%;
 		font-size: 1.2em;
 	}
 	p.services.desc{
 		margin-top: 40px;
 		top: 13%;
+		left: 35%;
 	}
 	p.services.desc2{
-		left: 70%;
+		left: 63%;
+	}
+	.services-img{
+	left: 35%;
+	}
+	h2.contact-header{
+		position: absolute;
+		top: 50%;
+		left: 10%;
+	}
+	form.contact-form{
+		position: absolute;
+		top: 63%;
+		left: 10%;
+		color: #FFFFFF;
 	}
 	h3{
 		top: 59%;
@@ -461,109 +500,113 @@ button:hover{
 		left: 55%;
 		}
 }
-/*tablets*/	
-@media all and (min-width: 768px) and (max-width: 1023px){
+@media all and (max-width: 900px){
 	h1{
 		font-size: 4em;
 		top: 38%;
 	}
 	ul.nav{
 		position: absolute;
-    		top: 55%;
-    		margin-top: 0px;
-    		left: 35%;
-    		margin-left: -140px;
+    	top: 55%;
+    	margin-top: 0px;
+    	left: 35%;
+    	margin-left: -140px;
 
-    		font-size: 1.1em;
+    	font-size: 1.1em;
 	}	
 	header{
-		height: 700px;
+		height: 550px;
 		margin-bottom: -45px;
 	}
-	aside{
-    		display: none;
-    	}
-   	h2{
+	
+    h2{
 		font-size: 2.5em;
+		
 	}	
 	h2.hello{
 		top: 9%;
+		left: 5%;
 	}
-    	p{
-    		font-size: 0.7em;
+    p{
+    	font-size: 0.7em;
 	}
-	p.hellou{
-		width: 250px;
-	}
+	
 	p.hellou.description{
+		width: 30%;
 		position: absolute;
-		top: 20%;
-    		margin-top: -25px;
-    		left: 21%;
+		top: 19%;
+    	margin-top: -25px;
+    	left: 5%;
 	}
 	p.hellou.description2{
+		width: 90%;
 		position: absolute;
-		top: 62%;
-    		margin-top: -25px;
-    		left: 21%;
+		top: 75%;
+    	margin-top: -25px;
+    	left: 5%;
 	}
 	.image{
-		width: 320px;
-		margin-top: 165px;
-		left: 47%;
+		width: 40%;
+		margin-top: 150px;
+	}
+	.image img{
+		width: 100%;
 	}
 	h2.gal{
 		top: 41%;
-		left: 21%; 
-    		margin-top: -65px;
+		left: 5%;
+    	margin-top: -65px;
 	}
 	.gallery-description{
-		width: 935px;
+		width: 90%;
 		position: absolute;
 		top: 57%;
-		left: 21%;
-    		margin-top: -25px;
-    		margin-left: 5px;
+		left: 5%;
+    	margin-top: -25px;
+    	margin-left: 5px;
 
-    		line-height: 25px;
-     		font-size: 0.7em;
+    	line-height: 25px;
+     	font-size: 0.7em;
+	}
+	.opening-description{
+		left: 5%;
 	}
 	p.services.desc{
 		top: 8%;
-		left: 43%;
+		left: 26%;
 	}
 	p.services.desc2{
 		margin-top: 45px;
 		top: 18%;
-		left: 69%;
+		left: 62%;
 	}
 	h2.services-header{
 		top: 5%;
-		left: 21%; 
-    		margin-top: -25px;
+		left: 5%;
+    	margin-top: -25px;
 	}
 	ul.services-list{
 		width: 300px;
 		height: 50px;
 	
 		top: 8%;
-    		margin-left: 5px;
+    	left: 0%;
 		font-size: 1.1em;
 	}
 	.services-img{
 		position: absolute;
 		top: 23%;
-		left: 43%;
+		left: 26%;
 	}
 	h2.contact-header{
 		position: absolute;
 		top: 45%;
-		left: 21%;
+		left: 5%;
 	}
 	form.contact-form{
 		position: absolute;
 		top: 58%;
-		left: 21%;
+		left: 5%;
 		color: #FFFFFF;
 	}
 	.form-label{
@@ -591,33 +634,33 @@ button:hover{
 		left: 55%;
 	}
 }
-@media all and (min-width: 481px) and (max-width: 767px){
+@media all and (max-width: 700px){
+	header{
+		height: 650px;
+	}
 	.header{
 		height: 45%;
 	}
 	h1{
 		font-size: 2.5em;
-		top: 45%;
+		top: 50%;
 		left: 39%;
+	}
+	li:hover{
+		color: #000;
 	}
 	ul.nav{
 		width: 350px;
 		height: 50px;
 	
-    		top: 70%;
-    		left: 40%;
+    	top: 70%;
+    	left: 40%;
 
-    		font-size: 0.7em;
-    		font-weight: 500;
+    	font-size: 0.7em;
+    	font-weight: 500;
     }
-    	aside{
-    		display: none;
-    }
-    	.introduction{
-		width: 100%;
-		height: 900px;
-
-		margin-top: -550px;
+    .introduction{
+		margin-top: -330px;
 
 		position: relative;
 
@@ -629,50 +672,53 @@ button:hover{
 		font-size: 1.6em;
 	}
 	h2.hello{
-		top: 6%;
-		left: 13%;
+		top: 10%;
+		left: 6%;
+		font-size: 1.6em;
 	}
 	p{
 		line-height: 15px;
     	font-size: 0.7em;
 	}
 	p.hellou{
-		width: 550px;
+		width: 90%;
 	}
 	p.hellou.description{
+		width: 90%;
 		position: absolute;
-		top: 15%;
-    		margin-top: -25px;
-    		left: 13%;
+		top: 19%;
+    	margin-top: -25px;
+    	left: 6%;
 	}
 	p.hellou.description2{
+		width: 90%;
 		position: absolute;
-		top: 32%;
-    		margin-top: -25px;
-    		left: 13%;
+		top: 36%;
+    	margin-top: -25px;
+    	left: 6%;
 	}
-	
 	.image{
-		width: 220px;
+		width: 90%;
 		margin-top: 15px;
-		margin-left: 100px;
+		margin-left: auto;
+		margin-right: auto;
 		height: 600px;
 	}
 	.gallery{
 		height: 220px;
 	}
 	h2.gal{
-		top: 25%;
-		left: 13%; 
+		top: 40%;
+		left: 6%; 
 	}
 	.gallery-description{
-		width: 535px;
+		width: 90%;
 		position: absolute;
 		top: 50%;
-		left: 13%;
+		left: 6%;
 		margin-left: 0px;
-    		line-height: 15px;
-     		font-size: 0.7em;
+    	line-height: 15px;
+     	font-size: 0.7em;
 	}
 	.opening-hours{
 		height: 275px;
@@ -683,11 +729,11 @@ button:hover{
 
 		position: absolute;
 		top: 46%;
-		left: 13%;
+		left: 6%;
 	}
 	h2.services-header{
 		top: 5%;
-		left: 13%; 
+		left: 6%;
     	margin-top: 0px;
 	}
 	ul.services-list{
@@ -695,8 +741,8 @@ button:hover{
 		height: 50px;
 
 		top: 8%;
-		left: 5%; 
-    		margin-left: 25px;
+		left: -3%; 
+    	margin-left: 25px;
 
 		line-height: 45px;
 
@@ -711,18 +757,18 @@ button:hover{
 		color: #FFFFFF;
 	}
 	p.services.desc{
-		width: 400px;  
+		width: 65%;  
 		position: absolute;
 		margin-top: 30px;
 		top: 8%;
-		left: 35%;
+		left: 30%;
 	}
 	p.services.desc2{
-		width: 400px;       
+		width: 65%;       
 		position: absolute;
 		margin-top: -5px;
 		top: 20%;
-		left: 35%;
+		left: 30%;
 	}
 	.services-img{
 		display: none;
@@ -730,12 +776,12 @@ button:hover{
 	h2.contact-header{
 		position: absolute;
 		top: 30%;
-		left: 13%;
+		left: 6%;
 	}
 	form.contact-form{
 		position: absolute;
 		top: 38%;
-		left: 13%;
+		left: 6%;
 	}
 	.form-label{
 		height: 62px;
@@ -752,18 +798,17 @@ button:hover{
 
 		position: absolute;
 		top: 72%;
-		left: 13%;
+		left: 6%;
 	}
 	p.contact-desc{
-		width: 550px;
+		width: 90%;
 
 		position: absolute;
 		top: 77%;
-		left: 13%;
+		left: 6%;
 	}
 }
-	/*mobile*/
-@media all and (min-width: 10px) and (max-width: 480px){
+@media all and (max-width: 490px){
 	header{
 		margin-bottom: 0px;
 	}
@@ -772,73 +817,76 @@ button:hover{
 	}
 	h1{
 		font-size: 1.1em;
-		top: 45%;
+		top: 40%;
 		left: 47%;
 		color: #000088;
+	}
+	.now{
+		top: 3%;
 	}
 	ul.nav{
 		width: 250px;
 		height: 50px;
 	
-    		top: 60%;
-    		left: 46%;
+    	top: 53%;
+    	left: 46%;
 
-    		font-size: 0.6em;
-    		font-weight: 500;
+    	font-size: 0.6em;
+    	font-weight: 500;
     }
-    aside{
-    	display: none;
-    }
+  
     .introduction{
-		width: 100%;
-		height: 900px;
+		height: 400px;
 
-		margin-top: -550px;
+		margin-top: -400px;
 
 		position: relative;
 
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
 	}
 	h2{
 		font-size: 1.6em;
 	}
 	h2.hello{
-		top: 6%;
-		left: 13%;
+		top: 10%;
+		left: 5%;
+		font-size: 1.6em;
 	}
 	p{
 		line-height: 15px;
-    		font-size: 0.6em;
+    	font-size: 0.6em;
 	}
 	p.hellou.description{
 		position: absolute;
-		top: 15%;
-    		margin-top: -25px;
-    		left: 13%;
+		top: 25%;
+    	margin-top: -25px;
+    	left: 5%;
+    	width: 93%;
 	}
 	p.hellou.description2{
 		position: absolute;
-		top: 34%;
-    		margin-top: -25px;
-    		left: 13%;
+		top: 65%;
+    	margin-top: -25px;
+    	left: 5%;
+    	width: 93%;
+	}
+	.image{
+		display: none;
 	}
 	.gallery{
-		height: 220px;
+		height: 190px;
 	}
 	h2.gal{
-		top: 25%;
-		left: 13%; 
+		top: 40%;
+		left: 5%; 
 	}
 	.gallery-description{
-		width: 335px;
+		width: 90%;
 		position: absolute;
 		top: 50%;
-		left: 13%;
+		left: 5%;
 		margin-left: 0px;
-    		line-height: 15px;
-    		font-size: 0.6em;
+    	line-height: 15px;
+    	font-size: 0.6em;
 	}
 	.opening-hours{
 		height: 275px;
@@ -849,50 +897,45 @@ button:hover{
 
 		position: absolute;
 		top: 46%;
-		left: 13%;
-	}
-	h2.services-header{
-		top: 5%;
-		left: 13%; 
-    	margin-top: 0px;
-	}
-	ul.services-list{
-		width: 100px;
-		height: 50px;
-
-		top: 8%;
 		left: 5%;
-    		margin-left: 0px;
-
-		line-height: 45px;
-
-		font-size: 0.8em;
 	}
+	
 	.services-contact{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 	}
+	h2.services-header{
+		top: 5%;
+		left: 5%; 
+    	margin-top: 0px;
+	}
+	ul.services-list{
+		width: 80px;
+		height: 50px;
+		top: 8%;
+		left: -5%;
+    	line-height: 45px;
+		font-size: 0.7em;
+	}
+
 	p.services{
-		color: #FFFFFF;
-			
+		color: #FFFFFF;	
 		clear: both;
 	}
 	p.services.desc{
-		width: 209px;
-
+		width: 55%;
 		position: absolute;
 		margin-top: 30px;
-		top: 8%;
-		left: 45%;
+		top: 7%;
+		left: 40%;
 	}
 	p.services.desc2{
-		width: 209px;
-
+		width: 55%;
 		position: absolute;
 		margin-top: 30px;
 		top: 20%;
-		left: 45%;
+		left: 40%;
 	}
 	.services-img{
 		display: none;
@@ -900,36 +943,44 @@ button:hover{
 	h2.contact-header{
 		position: absolute;
 		top: 35%;
-		left: 13%;
+		left: 5%;
 	}
 	form.contact-form{
 		position: absolute;
 		top: 43%;
-		left: 13%;
+		left: 6%;
 	}
 	.form-label{
 		height: 62px;
 	}
 	.small-label{
 		height: 30px;
-		width: 320px;
+		width: 88%;
 		padding-left: 6px;
 
 		border-bottom: #FFFFFF 1px solid;
 	}
+	button{
+		width: 250px;
+		left: -5%;
+	}
 	h3{
 		font-size: 1.6em;
-
 		position: absolute;
 		top: 75%;
-		left: 13%;
+		left: 5%;
 	}
 	p.contact-desc{
-		width: 350px;
+		width: 93%;
 
 		position: absolute;
 		top: 80%;
-		left: 13%;
+		left: 5%;
+	}
+}
+@media all and (max-width: 380px){
+	ul.services-list{
+		left: -13%;
 	}
 }
 
